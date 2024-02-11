@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="navbar">  <H1>My Portfolio</H1> </div>
+<body>
+  <br/>
+    <div class="pjikl" >
+    <img class="circular-image" src="Picsart_23-01-14_23-47-25-650.jpg" alt="Profile Image">
+    <p>Avinash Pandey</p> 
+    <p2> <b> Full Stack Web Developer</b></p2>
+    <br/>
+    <p2> <b> Currently Pursuing B.Tech in Computer Science from Chandigarh Group of Colleges (CGC), Landran</b></p2>
+    </div>
+
+    <hr> </hr>
+    <div2 class="button-container">
+        <button> <a href="http://127.0.0.1:5500/Portfolio/skills.html"> Skills 
+        </a></button>
+        <button> <a href="http://127.0.0.1:5500/Portfolio/certifications.html"> Certifications
+        </a></button>
+        <button> <a href="http://127.0.0.1:5500/Portfolio/projects.html"> Projects
+        </a></button>
+        <button> <a href="http://127.0.0.1:5500/Portfolio/Interests.html"> Interests
+        </a></button>
+        <button> <a href="http://127.0.0.1:5500/Portfolio/academics.html">Academics </a></button>
+        <button> <a href="http://127.0.0.1:5500/Portfolio/aboutme.html"> About Me 
+        </a> </button>
+        
+    </div2>
+    <hr/>
+    <div> <p2> <b>Address: </b> Village Nanoo, P.O. Balag, Tehsil Theog, District Shimla, H.P. </p2> </div>
+    <div> <p2> <b>Pincode:</b> 171226 </p2> </div>
+     <div> <p2> <b>Contact No.: </b> 8626842109  </p2> </div>
+     <div> <p2> <b>Email Id:</b> aveex37@gmail.com </p2> </div>
+    <hr> </hr>
+    
+
+    <br> </br>
+
+    <script>
+        const toggleDarkMode = () => {
+          document.body.classList.toggle('dark-mode');
+        };
+      
+        // Add a button or any trigger element for toggling dark mode
+        document.getElementById('dark-mode-toggle').addEventListener('click', toggleDarkMode);
+      </script>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+  
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+</body>
+</html> 
